@@ -1,0 +1,6 @@
+framework module Pods_CustomRoundedFramework {
+  umbrella header "Pods-CustomRoundedFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

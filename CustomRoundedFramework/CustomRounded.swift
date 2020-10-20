@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import TTGSnackbar
 
 /**
  Access control
@@ -36,5 +37,18 @@ public class CustomRounded{
     
     public static func printSomething(text: String){
         print(text)
+    }
+
+    
+    public static func showSnackBar(){
+        let snackbar = TTGSnackbar(
+            message: "TTGSnackBar !",
+            duration: .middle,
+            actionText: "Action!",
+            actionBlock: { (snackbar) in
+                print("Click action!")
+            }
+        )
+        snackbar.show()
     }
 }

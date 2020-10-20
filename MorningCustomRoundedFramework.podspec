@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MorningCustomRoundedFramework"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "A short summary of MorningCustomRoundedFramework."
 
   # This description is used to generate tags and improve search results.
@@ -135,5 +135,6 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
 
 spec.swift_version = '5.0'
+spec.dependency "TTGSnackbar", "~> 1.10.3"
 
 end
